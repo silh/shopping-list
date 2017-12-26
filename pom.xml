@@ -9,7 +9,7 @@
 	<packaging>jar</packaging>
 
 	<name>shopping-list</name>
-	<description></description>
+    <description>Simple shopping list application.</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -34,13 +34,14 @@
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.session</groupId>
-			<artifactId>spring-session</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>3.0.2</version>
+        </dependency>
 
 		<dependency>
 			<groupId>com.h2database</groupId>

@@ -28,7 +28,7 @@ public class UserConverterImpl implements UserConverter {
         UserDto userTO = new UserDto();
         userTO.setId(user.getId());
         userTO.setLogin(user.getLogin());
-        userTO.setPassword(user.getPassword()); //maybe should not set password
+//        userTO.setPassword(user.getPassword());
         return userTO;
     }
 
